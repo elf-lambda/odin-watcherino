@@ -1,0 +1,17 @@
+# Format: channel_name=true/false
+# true = monitor and play TTS notification
+# false = monitor only
+
+# Examples:
+# xqc=true
+# shroud=false
+# pokimane=true
+# Add your streamers below:
+$nick=Anonymous
+$oauth=
+$filter=your_filters_and_username
+#$recording=true
+#$archivedir=E:/archives
+$ttspath=tts\\
+$ttsmessage=is now streaming.
+forsen=true
