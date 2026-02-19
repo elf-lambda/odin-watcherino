@@ -244,6 +244,7 @@ main :: proc()
 
 		draw_notification()
 		rl.EndDrawing()
+		free_all(context.temp_allocator)
 	}
 	if g_loader_thread != nil
 	{
