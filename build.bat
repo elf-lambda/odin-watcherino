@@ -1,0 +1,1 @@
+odin run src -extra-linker-flags:"/NODEFAULTLIB:libcmt.lib msvcrt.lib legacy_stdio_definitions.lib ucrt.lib"
